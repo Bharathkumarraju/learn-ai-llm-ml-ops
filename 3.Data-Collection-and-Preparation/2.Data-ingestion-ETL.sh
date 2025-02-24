@@ -12,7 +12,7 @@ Where data stored in an organization
 Now how can we consolidate all of the above information and store it in one place.
 So this process is called ETL - Extract, Transform and Load
 
-Extract -- Gathering raw data from DBs, APIs, Flatfiles - tools there like talent, DLT etc
+Extract -- Gathering raw data from DBs, APIs, Flatfiles - tools there like talend, DBT etc
 Transform -- cleaning, filtering and aggregating the data.
 Load -- Loading data into a target system like Data warehouse, Data lake and Repository.
 
