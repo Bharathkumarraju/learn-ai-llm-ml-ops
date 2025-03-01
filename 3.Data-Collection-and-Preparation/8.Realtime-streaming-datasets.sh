@@ -1,4 +1,4 @@
-Real-time streaming
+Real-time streaming (or) event-driven architecture
 
 Apache Kafka and Apache Flink
 
