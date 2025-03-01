@@ -783,4 +783,5 @@ root@controlplane ~/example-orchestration ➜  docker compose up -d
  ✔ Container example-orchestration-airflow-triggerer-1  Started                                                                                                                 19.3s 
  ✔ Container example-orchestration-airflow-worker-1     Started                                                                                                                 19.3s 
 
-root@controlplane ~/example-orchestration ➜  
+root@controlplane ~/example-orchestration ➜
+
