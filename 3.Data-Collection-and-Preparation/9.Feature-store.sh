@@ -8,9 +8,10 @@ a flight-booking application that uses real-time ML to recommend optimal ticket 
 
 Without a feature store, the system may rely on a slow batch data lake process, leading to outdated price predictions.
 With a feature store, real-time features such as:
-   Current flight demand
-   Weather conditions
-   Seat availability
-   Competitor pricing
+   Current flight demand,
+   Weather conditions,
+   Seat availability,
+   Competitor pricing and
    User search history  are precomputed, stored, and served instantly to the ML model, ensuring low-latency, accurate recommendations.
+
 
