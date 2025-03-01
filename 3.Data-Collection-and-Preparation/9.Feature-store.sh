@@ -1,5 +1,8 @@
 A game-changing component in the MLops-Landscape is feature store.
 
+Datawarehouse vs Feature-store:
+----------------------------------------------------------------------->
+
 Traditional systems like Data-Lakes pose challenges such as data latency, consistency, and reusability challenges for real-time ML applications.
 
 A real-time application like flight-booking service use feature-store to address those challenges
@@ -13,5 +16,10 @@ With a feature store, real-time features such as:
    Seat availability,
    Competitor pricing and
    User search history  are precomputed, stored, and served instantly to the ML model, ensuring low-latency, accurate recommendations.
+
+
+Feature-Store offers pipelines for advanced transformations.
+
+
 
 
