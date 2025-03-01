@@ -1,0 +1,28 @@
+version: '3'
+services:
+  # Zookeeper service
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    container_name: admin-zookeeper-1
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+
+  # Kafka service
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    container_name: admin-kafka-1
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092" # Kafka port exposed to the host port
+    environment:
+      KAFKA_BROKER_ID: 1
+      # Zookeeper connection zookeeper service name and port
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      # Kafka advertised listeners
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
