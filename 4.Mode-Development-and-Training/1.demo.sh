@@ -5,4 +5,9 @@ MLflow
 Jupyter Notebook
 Colab Notebook
 Amazon SageMaker
-Vertex.ai
+GCP Vertex.ai
+
+
+Build ML model - Train it and - Test it.
+
+
