@@ -1,0 +1,16 @@
+aliases: []
+creation_timestamp: 1741115289466
+current_stage: None
+description: ''
+last_updated_timestamp: 1741115289466
+name: NewMLDeployment
+run_id: 6b0a7299af0e49b3b44ac213d065e8ca
+run_link: ''
+source: mlflow-artifacts:/984637440833736174/6b0a7299af0e49b3b44ac213d065e8ca/artifacts/Decision
+  Tree Regressor
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/984637440833736174/6b0a7299af0e49b3b44ac213d065e8ca/artifacts/Decision
+  Tree Regressor
+user_id: null
+version: 1
