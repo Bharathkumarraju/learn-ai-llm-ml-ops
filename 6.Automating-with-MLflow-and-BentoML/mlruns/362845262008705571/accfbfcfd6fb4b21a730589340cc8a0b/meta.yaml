@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/362845262008705571/accfbfcfd6fb4b21a730589340cc8a0b/artifacts
+end_time: 1741214281442
+entry_point_name: ''
+experiment_id: '362845262008705571'
+lifecycle_stage: active
+run_id: accfbfcfd6fb4b21a730589340cc8a0b
+run_name: bright-deer-511
+run_uuid: accfbfcfd6fb4b21a730589340cc8a0b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741214279449
+status: 3
+tags: []
+user_id: bharathkumardasaraju

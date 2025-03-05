@@ -7,7 +7,7 @@ import mlflow.sklearn
 # Load the synthetic data
 df = pd.read_csv('synthetic_health_claims.csv')
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_tracking_uri("http://127.0.0.1:5001")
 
 # Features to use for the model
 features = ['claim_amount', 'num_services', 'patient_age', 'provider_id', 'days_since_last_claim']
