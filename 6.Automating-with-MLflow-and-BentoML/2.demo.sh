@@ -103,5 +103,20 @@ So in the backgroud.. flask be able to actually calls BentoML /predict api endpo
 so this BentoML /predict endpoint had the ML-Model present and that ML-Model got triggered.. it gives the prediction with results 1 or -1
 
 
+upgraded flask app
+
+(.venv) bharathkumardasaraju@6.Automating-with-MLflow-and-BentoML$ python3.12 ./v2_app.py
+Matplotlib is building the font cache; this may take a moment.
+ * Serving Flask app 'v2_app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5005
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 846-305-491
+
+
+
 
 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Insurance Anomaly Detection</title>
+    <style>
+        .drag-area {
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            width: 100%;
+            height: 200px;
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+            color: #333;
+        }
+        .drag-area.hover {
+            border-color: #333;
+            background-color: #f0f0f0;
+        }
+        .drag-area p {
+            margin: 30px 0;
+        }
+        .drag-area button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload CSV File</h1>
+    <div class="drag-area" id="drag-area">
+        <p>Drag & Drop your CSV file here or click to upload</p>
+        <input type="file" id="fileInput" name="file" style="display: none;" accept=".csv">
+        <button onclick="document.getElementById('fileInput').click();">Browse Files</button>
+    </div>
+    <form id="uploadForm" action="/predict" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="file" id="hiddenFileInput">
+    </form>
+
+    <script>
+        const dragArea = document.getElementById('drag-area');
+        const fileInput = document.getElementById('fileInput');
+        const hiddenFileInput = document.getElementById('hiddenFileInput');
+        const uploadForm = document.getElementById('uploadForm');
+
+        dragArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dragArea.classList.add('hover');
+        });
+
+        dragArea.addEventListener('dragleave', () => {
+            dragArea.classList.remove('hover');
+        });
+
+        dragArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dragArea.classList.remove('hover');
+            const file = e.dataTransfer.files[0];
+            handleFile(file);
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            handleFile(file);
+        });
+
+        function handleFile(file) {
+            if (file && file.type === 'text/csv') {
+                const reader = new FileReader();
+                reader.readAsDataURL(file);
+                reader.onload = () => {
+                    hiddenFileInput.value = reader.result;
+                    uploadForm.submit();
+                };
+            } else {
+                alert('Please upload a valid CSV file.');
+            }
+        }
+    </script>
+</body>
+</html>

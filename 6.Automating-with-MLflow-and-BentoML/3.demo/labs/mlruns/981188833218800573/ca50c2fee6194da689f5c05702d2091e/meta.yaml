@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/981188833218800573/ca50c2fee6194da689f5c05702d2091e/artifacts
+end_time: 1741218396118
+entry_point_name: ''
+experiment_id: '981188833218800573'
+lifecycle_stage: active
+run_id: ca50c2fee6194da689f5c05702d2091e
+run_name: dashing-swan-340
+run_uuid: ca50c2fee6194da689f5c05702d2091e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741218391201
+status: 3
+tags: []
+user_id: root

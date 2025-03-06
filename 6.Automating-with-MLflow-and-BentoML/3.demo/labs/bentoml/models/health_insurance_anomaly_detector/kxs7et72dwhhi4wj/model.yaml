@@ -1,0 +1,17 @@
+name: health_insurance_anomaly_detector
+version: kxs7et72dwhhi4wj
+module: bentoml.sklearn
+labels: {}
+options: {}
+metadata: {}
+context:
+  framework_name: sklearn
+  framework_versions:
+    scikit-learn: 1.6.1
+  bentoml_version: 1.4.2
+  python_version: 3.12.3
+signatures:
+  predict:
+    batchable: false
+api_version: v1
+creation_time: '2025-03-05T23:55:37.394961+00:00'
