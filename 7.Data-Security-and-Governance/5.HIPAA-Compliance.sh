@@ -9,3 +9,6 @@ Key components:
 MFA, encryptind patients data, access-controls i.e.
 Hospitals now use secure logins, access controls and encrypted databases.
 
+HIPAA has two violations
+1. Civil Violations
+2. Criminal Violations
