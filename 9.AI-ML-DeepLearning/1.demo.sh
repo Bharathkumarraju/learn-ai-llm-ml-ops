@@ -23,4 +23,8 @@ DL: Deep learning is a subset of ML that uses multi-layered neural-networks to m
 
 
 
+AI - General Intelligence Simulations
+ML - Learning from data patterns
+DL - Complex pattern recognition with neural networks
+
 
