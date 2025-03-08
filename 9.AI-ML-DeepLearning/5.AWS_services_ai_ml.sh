@@ -26,6 +26,39 @@ Amazon Polly - Audio interactions.. basically voice based system ...conversion f
 SSML - Speech Synthetics Markup Language(SSML)
 
 
+AWS Comprehend:
+  1. Language detection
+  2. Sentiment Analysis
+  3. Entity recognition
+  4. Key phrases extracton
+  5. Topic Modeling
+
+AMazon Fraud detector
+
+Amazon Transcribe.... audio and video to text... i.e. sound into text
+
+Amazon Textract --- extract text from scanned document
+
+
+AWS Glue: Data manipulation and data cleaning and data extraction - Run ETL jobs
+AWS Glue Databrew - Visual Data Preperation tool
+
+AWS Crawler structure the data from s3... json..csv to etc
+
+
+Amazon Elastic MapReduce(haddop cluster, apache spark cluster)
+
+
+Augmented AI - Make predictions in human reviews
+
+QuickSight- A visualization Engine -- uses SPICE Engine
+
+
+
+
+
+
+
 
 
 
