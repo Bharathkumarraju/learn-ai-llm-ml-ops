@@ -34,4 +34,27 @@ Embeddings and Vectors:
 Chunking:
 
 
+Prompt Engineering:
+Designing prompts to get the desired output. Techniques includes zero-shot, one-shot and few-shot learning
 
+Zero-shot learning
+one-shot learning
+few-shot lerning
+
+
+Multimodal Models:
+
+Diffusion models
+
+
+
+
+Github Copilot
+
+
+AWS Generative AI hosting system is AWS Bedrock
+
+Architectures behind the genAI
+1. Generative Adversarial Network(GAN)
+2. Variational Autoencoder(VAE)
+3. Transformers
