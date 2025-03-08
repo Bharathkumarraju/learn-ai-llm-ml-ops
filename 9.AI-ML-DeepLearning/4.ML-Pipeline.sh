@@ -32,3 +32,14 @@ Model Monitor:
 ------------------------->
 
 
+Apache Airflow
+
+MLOps Pipeline
+
+
+Amazon SageMaker Clarify
+Amazon Sagemaker studio
+
+
+Model Metrics vs Business Requirements
+
