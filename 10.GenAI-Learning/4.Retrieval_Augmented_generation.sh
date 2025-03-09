@@ -14,5 +14,13 @@ Basically it take Large Language model and it retrieves information.
 So the goal of RAG is to basically retrieve that information and ingested into the model.
 
 
+Vector Databases: the Backbone of RAG
+-------------------------------------------------->
+metadata about images
+metadata about audio
+metadata about videos
 
+Amazon Bedrock: RAG in action
+
+Amazon Bedrock leverages RAG to enhance language models, Retrieves data from knowledge bases to improve responses.
 
