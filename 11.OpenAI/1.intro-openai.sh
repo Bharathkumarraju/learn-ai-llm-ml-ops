@@ -134,4 +134,8 @@ https://oaidalleapiprodscus.blob.core.windows.net/private/org-HX2Eo7f67VJnvWULLy
 (.venv) bharathkumardasaraju@11.OpenAI$
 
 
+(.venv) bharathkumardasaraju@11.OpenAI$ python3.12 ./generate_ai_image_personal.py
+https://oaidalleapiprodscus.blob.core.windows.net/private/org-HX2Eo7f67VJnvWULLykeVcXx/user-D6Yk4QLHp5zfjnwikJee8IAi/img-ItfbCstbjok1p8XaNqMxXtFn.png?st=2025-03-11T21%3A37%3A34Z&se=2025-03-11T23%3A37%3A34Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-10T23%3A20%3A49Z&ske=2025-03-11T23%3A20%3A49Z&sks=b&skv=2024-08-04&sig=XGsN9hfQapX%2B9vt6uGjv3wZqtOALPljIniFYtcjXrZE%3D
+(.venv) bharathkumardasaraju@11.OpenAI$
+
 
