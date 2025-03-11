@@ -53,3 +53,78 @@ total 632
 (.venv) bharathkumardasaraju@11.OpenAI$
 
 
+Features of OpenAPI:
+------------------------->
+1. Function calling
+2. Structured Outputs
+3. Advanced Usage
+4. Embeddings
+5. Batch Processing
+
+Process Multiple Prompts in OpenAI:
+-------------------------------------------------------------------->
+
+(.venv) bharathkumardasaraju@11.OpenAI$ python3.12 ./openai_multi_prompts.py
+Prompt: Tell me a story about a brave knight
+Response:
+Once upon a time, in a kingdom nestled between vast forests and towering mountains, there lived a brave knight named Sir Cedric. Known throughout the realm for his unwavering courage and noble heart, Sir Cedric served as the protector of the kingdom of Eldoria. His armor, though dented and weathered from countless battles, shone brightly in the sun, a testament to his valor and dedication.
+
+One day, news arrived of a fearsome dragon that had taken residence in the caves of Mount Draconis, threatening the peace of Eldoria. The dragon, with scales as dark as the night and eyes like burning embers, had begun to terrorize the nearby villages, burning crops and homes with its fiery breath. The people of Eldoria
+
+================================================================================
+Prompt: Generate a list of 5 business ideas
+Response:
+Certainly! Here are five business ideas that could be viable in today's market:
+
+1. **Eco-Friendly Packaging Solutions**: With the increasing focus on sustainability, there's a growing demand for eco-friendly packaging. This business could offer biodegradable, recyclable, or reusable packaging options for various industries, including food, retail, and e-commerce.
+
+2. **Remote Team Building Services**: As remote work becomes more prevalent, companies are seeking innovative ways to build team cohesion. A business that offers virtual team-building activities, workshops, and retreats can help remote teams connect and improve their collaboration skills.
+
+3. **AI-Powered Personal Health Assistant**: Develop a mobile app that uses artificial intelligence to provide personalized health recommendations, track fitness goals, and offer dietary advice. The
+
+================================================================================
+Prompt: Explain the theory of relativity in simple terms
+Response:
+The theory of relativity, developed by Albert Einstein, is a fundamental concept in physics that explains how space, time, and gravity interact. It consists of two main parts: special relativity and general relativity.
+
+**Special Relativity**:
+- This part deals with objects moving at constant speeds, especially those moving very fast, close to the speed of light.
+- One of its key ideas is that the laws of physics are the same for all observers, no matter how fast they are moving.
+- It introduces the concept that time and space are interconnected in a four-dimensional space-time.
+- A famous outcome of special relativity is that time can pass at different rates for different observers, depending on their relative speeds (time dilation). For example
+
+================================================================================
+Prompt: Write a poem about basketball
+Response:
+In a court where echoes of sneakers speak,
+The ball dances lively, its bounce unique.
+Orange globe on a journey, swift and wide,
+Gliding through air, with grace it does glide.
+
+Lines of wood, polished under the light,
+Witness the battles fought every night.
+Players as poets, in motion they rhyme,
+Crafting a story in real-time.
+
+The dribble's rhythm, a pulsing beat,
+Mirroring hearts that refuse defeat.
+Crossovers sharp, like a painter's brush,
+Creating beauty in the game’s rush.
+
+The crowd's roar, a symphony's call,
+As dreams take flight with each arc of the ball.
+The swish of the net
+
+================================================================================
+(.venv) bharathkumardasaraju@11.OpenAI$
+
+
+Vision Capabilities of OpenAI
+--------------------------------------------------------------------------------------------------->
+1. vision models
+2. DALL-E
+3. Text-to-Image Generation
+4. Introduction to CLIP
+5. Practical Applications
+6. Ethical Considerations
+
