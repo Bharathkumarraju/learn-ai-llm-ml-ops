@@ -128,3 +128,10 @@ Vision Capabilities of OpenAI
 5. Practical Applications
 6. Ethical Considerations
 
+
+(.venv) bharathkumardasaraju@11.OpenAI$ python3.12 ./generate_ai_image.py
+https://oaidalleapiprodscus.blob.core.windows.net/private/org-HX2Eo7f67VJnvWULLykeVcXx/user-D6Yk4QLHp5zfjnwikJee8IAi/img-pHeIFmfUANuUJmqTD9XwQX7V.png?st=2025-03-11T07%3A08%3A18Z&se=2025-03-11T09%3A08%3A18Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-10T23%3A19%3A06Z&ske=2025-03-11T23%3A19%3A06Z&sks=b&skv=2024-08-04&sig=lrXe4a/M2iARytfPYVSydUUBlg0l/aNznDvlLS5Gu38%3D
+(.venv) bharathkumardasaraju@11.OpenAI$
+
+
+
