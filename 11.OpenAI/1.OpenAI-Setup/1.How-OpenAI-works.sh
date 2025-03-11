@@ -29,4 +29,6 @@ Infinite echoes.
 
 5. Training Models
 
+backpropagation
+
 
