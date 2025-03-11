@@ -11,8 +11,17 @@
   LLM Optimization - how the model needs to act
   Contect Optimization - what the model needs to know
 
-
 3. Generative AI(GPT-4 & DALL-E)
+   GenAI relies on sophosticated Machine Learning models such as
+   generative universal networks(GUNs)
+   Variational Auto Encoders(VAEs)
+   GPT-3, GPT-4, DALL-E
+
+(.venv) bharathkumardasaraju@1.OpenAI-Setup$ python3.12 ./generate_poem_about_recursion.py
+A loop within loops,
+Mirrored code calls itself back—
+Infinite echoes.
+(.venv) bharathkumardasaraju@1.OpenAI-Setup$
 
 
 4. Built on Neural Networks
