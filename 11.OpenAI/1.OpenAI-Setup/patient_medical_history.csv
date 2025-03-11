@@ -1,0 +1,6 @@
+Here is the structured CSV format for the provided medical data:
+
+```csv
+Patient,Age,Diagnosis,Medications,Last Visit,Next Appointment,Doctor
+John Doe,45,"Type 2 Diabetes, Hypertension","Metformin, Lisinopril",2024-03-01,2024-06-15,Dr. Smith
+```
