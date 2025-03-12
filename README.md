@@ -1,2 +1,2 @@
-# learn-ml-ops
-Machine-Learning Models Development and Deployment
+# learn-ai-ml-llm-ops
+Machine-Learning , Gen AI Models Development and Deployment
