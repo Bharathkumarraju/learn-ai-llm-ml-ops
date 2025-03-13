@@ -1,0 +1,4 @@
+{"messages": [{"role": "user", "content": "I love the new design of the product. It's amazing! and excellent"}, {"role": "assistant", "content": "Very Positive"}]}
+{"messages": [{"role": "user", "content": "The product works well, but the customer service was awful."}, {"role": "assistant", "content": "Mixed (Positive for product, Negative for customer service)"}]}
+{"messages": [{"role": "user", "content": "The product quality is not good and also shipping was slow too!"}, {"role": "assistant", "content": "Negative"}]}
+{"messages": [{"role": "user", "content": "The product is a huge mess and very bad!"}, {"role": "assistant", "content": "Very Negative"}]}
