@@ -1,0 +1,2 @@
+AZURE AI Practioner
+
