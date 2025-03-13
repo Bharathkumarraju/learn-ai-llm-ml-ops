@@ -34,7 +34,7 @@ def trainer(goals, df):
     messages.extend([
         {"role": "system", "content": "Direct. Point form."},
         {"role": "assistant", "content": f"You are a health expert. The person you are responding to is an accountant. "
-                                         f"Be technical and specific. Reference this data: \n\n{df.to_string()}"}
+                                         f"Be technical and specifi to their role. Reference this data: \n\n{df.to_string()} and provide solutions to the ${goals}"}
     ])
 
     # Make OpenAI API call
