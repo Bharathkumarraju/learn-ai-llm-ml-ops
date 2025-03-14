@@ -39,6 +39,10 @@ Sales report saved to sales_report.csv
 
 
 
+(.venv) bharathkumardasaraju@4.Features$ python3.12 ./5.structured_output_xml.py
+Database configuration saved to db_config.xml
+(.venv) bharathkumardasaraju@4.Features$
+
 
 
 
