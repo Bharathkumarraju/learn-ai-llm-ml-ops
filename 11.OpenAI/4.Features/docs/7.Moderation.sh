@@ -14,3 +14,5 @@ Categories flagged:
 - sexual: 0.4711
 (.venv) bharathkumardasaraju@4.Features$
 
+Practical application of CLIP is Identifying inappropriate content in images
+
