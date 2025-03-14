@@ -1,0 +1,28 @@
+{
+    "recipe": {
+        "name": "Simple Milk Sugar Syrup",
+        "ingredients": [
+            {
+                "name": "milk",
+                "quantity": "1 cup"
+            },
+            {
+                "name": "sugar",
+                "quantity": "1/2 cup"
+            }
+        ],
+        "instructions": [
+            "In a small saucepan, combine milk and sugar.",
+            "Heat the mixture over medium heat, stirring constantly until the sugar dissolves completely.",
+            "Once the sugar has dissolved, bring the mixture to a gentle simmer.",
+            "Allow it to simmer lightly for 5-7 minutes, stirring occasionally.",
+            "Remove from heat and let it cool slightly.",
+            "Transfer to a bottle or container for storage.",
+            "Use as a sweetener for coffee, tea, or desserts."
+        ],
+        "prep_time": "2 minutes",
+        "cook_time": "10 minutes",
+        "total_time": "12 minutes",
+        "yield": "1 cup"
+    }
+}
