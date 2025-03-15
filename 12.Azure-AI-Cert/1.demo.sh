@@ -1,5 +1,7 @@
 AZURE AI Practioner
 
+Artifical Intelligence - A software that imitates human capabilities - A simulation of human intelligence in machines.
+
 
 1. Artificial Intelligence Workloads & Considerations
 2. Fundamental Principles of Machine Learning on AZURE
