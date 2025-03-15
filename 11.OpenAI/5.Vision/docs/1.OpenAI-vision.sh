@@ -12,3 +12,10 @@ The last category, Most Used Tool Set, includes the following tools: Jupyter, Gi
 
 
 Detect objects in a image
+
+
+
+
+(.venv) bharathkumardasaraju@5.Vision$ python3.12 ./4.openai-vision-dalle.py
+Generated Image URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-HX2Eo7f67VJnvWULLykeVcXx/user-D6Yk4QLHp5zfjnwikJee8IAi/img-wgDpReIt5T1SsZyxNH4Wo8AA.png?st=2025-03-15T02%3A11%3A28Z&se=2025-03-15T04%3A11%3A28Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-14T18%3A27%3A52Z&ske=2025-03-15T18%3A27%3A52Z&sks=b&skv=2024-08-04&sig=FF6jm47%2BpJhhBXLtEDRyCerJ5W7STdXFIqlRVRXfSZM%3D
+(.venv) bharathkumardasaraju@5.Vision$
