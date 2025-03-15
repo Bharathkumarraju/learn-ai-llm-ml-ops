@@ -24,3 +24,12 @@ This process involves two main phases - Training and Inferencing
 2. Inferencing
   1. Train the Model
   2. Prediction
+
+ML helps us to make informed decisions about the future.
+
+
+ML types:
+-------------->
+1. Supervised Machine Learning --> Training data includes known labels.
+2. Unsupervised Machine Learning --> Training data in unlabeled.
+
