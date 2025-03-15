@@ -31,5 +31,8 @@ ML helps us to make informed decisions about the future.
 ML types:
 -------------->
 1. Supervised Machine Learning --> Training data includes known labels.
+      1. Regression - Label is a numeric value
+      2. Classification(Label is a Categorization) - Binary Classification, Multiclass Classification
+
 2. Unsupervised Machine Learning --> Training data in unlabeled.
 
