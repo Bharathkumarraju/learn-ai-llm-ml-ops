@@ -1,3 +1,10 @@
+Prompting:
+------------------------->
+Zero shot prompting
+Few-shot prompting
+Chain-of-Thought prompting
+Advesarial Prompting
+INference parameters
 
 
 Nueral Networks
