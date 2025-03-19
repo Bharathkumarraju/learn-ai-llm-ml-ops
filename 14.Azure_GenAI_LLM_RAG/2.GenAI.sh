@@ -1,9 +1,3 @@
-Text Modality
-Image Modality
-
-Video Modality
-Audio Modality
-
 
 
 Nueral Networks
@@ -61,6 +55,20 @@ RLHF  --  Re-inforcement Learning from Human Feedback.
 
 Enhanced Model -- Fine-Tuning Process + Human and Machine Feedback.
 
+
+
+Multi-Modality
+------------------>
+Text Modality
+Image Modality
+
+Video Modality
+Audio Modality
+
+
+Tansformer Model:
+
+DALL.E ... CLIP ... Midjourney
 
 
 
