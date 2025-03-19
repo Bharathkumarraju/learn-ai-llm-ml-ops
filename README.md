@@ -4,4 +4,4 @@ GenAI , LLM(Large Language Models) and Machine-Learning(ML) Models Development a
 
 ## Azure AI Certification - AI 900 AI fundamentals
 
-![Bharaths Azure-AI900](./13.AWS-AI-Cert/Azure_AI_Fundamentals.png)
+![Bharaths Azure-AI900](12.Azure-AI-Cert/Azure_AI_Fundamentals.png)
