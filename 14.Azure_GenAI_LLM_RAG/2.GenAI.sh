@@ -34,6 +34,26 @@ Paradigm Shift  --->
 
 03. Reinforcement Learning ( train the system - feedback loop )
 
+04. Self-Supervised Learning -- reward or penalise by itself.
+
+
+Natural Language Processing - NLP built on Neural Networks
+
+Idea of GPUs, CUDA  and crawling of common datasets ... i.e crwaling of large-datasets leads to new era of tech called --- Artificail Intelligence(AI)
+
+
+Transformers in AI... is moslty matrix operations
+
+LLMs - transformers are the key
+
+Gemini
+Llama
+GPT - Generative Pre-trained Transformer
+Claude
+
+
+
+
 
 
 
