@@ -1,5 +1,7 @@
 import os
 import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
 from openai import OpenAI
 from dotenv import load_dotenv
 
@@ -35,9 +37,7 @@ def get_embedding(text, model="text-embedding-3-small"):
 
 
 # Generate embeddings for all sentences and store in a dictionary
-sentence_vectors = {}
-for sentence in sentences:
-    sentence_vectors[sentence] = get_embedding(sentence)
+sentence_vectors = {sentence: get_embedding(sentence) for sentence in sentences}
 
 
 # Function to calculate cosine similarity
@@ -77,3 +77,35 @@ def get_top_n_similar(query_sentence, n=2):
 # Query Example
 query_sentence = "Find the best pizza restaurant close to me."
 get_top_n_similar(query_sentence, n=2)
+
+
+# 🔹 3D Visualization of Embeddings using PCA
+def visualize_embeddings_3d():
+    print("\n📊 **Visualizing Sentence Embeddings in 3D Space**")
+
+    # Convert dictionary values (embeddings) into a NumPy array
+    sentence_embeddings = np.array(list(sentence_vectors.values()))
+
+    # Reduce dimensions from 1536D → 3D using PCA
+    pca = PCA(n_components=3)
+    reduced_embeddings_3d = pca.fit_transform(sentence_embeddings)
+
+    # Plot in 3D
+    fig = plt.figure(figsize=(10, 7))
+    ax = fig.add_subplot(111, projection='3d')
+
+    for i, sentence in enumerate(sentences):
+        x, y, z = reduced_embeddings_3d[i]
+        ax.scatter(x, y, z, label=sentence, s=100)  # s=100 makes the dots larger
+        ax.text(x, y, z, sentence, fontsize=10)
+
+    ax.set_title("Sentence Embeddings Visualized in 3D using PCA")
+    ax.set_xlabel("PC 1")
+    ax.set_ylabel("PC 2")
+    ax.set_zlabel("PC 3")
+    plt.legend()
+    plt.show()
+
+
+# Call the visualization function
+visualize_embeddings_3d()

@@ -14,8 +14,8 @@ client = OpenAI(
 # Sample sentences
 sentences = [
     "Best pizza places nearby.",
-    "Popular breakfast spots in New York.",
-    "Top-rated seafood restaurants in Miami.",
+    "Popular breakfast spots in JB.",
+    "Top-rated seafood restaurants in Singapore.",
     "Cheap hotels near the beach.",
     "Recipes for quick pasta dishes.",
     "Is PizzaHut Restaurant Near Me.",
