@@ -23,7 +23,7 @@ sentences = [
     "Is PizzaHut Restaurant Near Me.",
 ]
 
-print("\n🔹 List of Sentences to Search From:")
+print("\n List of Sentences to Search From:")
 for sentence in sentences:
     print(f"- {sentence}")
 
@@ -32,18 +32,18 @@ for sentence in sentences:
 def tokenize_text(text):
     token_ids = tokenizer.encode(text)  # Get token IDs
     tokens = [tokenizer.decode([tid]) for tid in token_ids]  # Convert IDs to readable tokens
-    print(f"\n🔤 **Tokenizing:** \"{text}\"")
-    print(f"🧩 Total Tokens: {len(token_ids)}")
-    print(f"📌 Tokens: {tokens}")
+    print(f"\n **Tokenizing:** \"{text}\"")
+    print(f" Total Tokens: {len(token_ids)}")
+    print(f" Tokens: {tokens}")
     return token_ids
 
 
 # Function to get embeddings
 def get_embedding(text, model="text-embedding-3-small"):
     tokenize_text(text)  # Print tokens before generating embeddings
-    print(f"\n🧠 Generating embedding for: \"{text}\"")
+    print(f"\n Generating embedding for: \"{text}\"")
     embedding = client.embeddings.create(input=[text], model=model).data[0].embedding
-    print(f"✅ Embedding generated (first 5 values): {embedding[:5]} ...\n")  # Print only first 5 values
+    print(f" Embedding generated (first 5 values): {embedding[:5]} ...\n")  # Print only first 5 values
     return embedding
 
 
@@ -72,14 +72,14 @@ def get_top_n_similar(query_sentence, n=2):
     # Sort by similarity score (higher is better)
     sorted_similarities = sorted(similarities.items(), key=lambda x: x[1], reverse=True)
 
-    print("\n📊 **Similarity Scores:**")
+    print("\n **Similarity Scores:**")
     for sentence, score in sorted_similarities:
         print(f"- {score:.4f} | {sentence}")
 
     # Get the top N matches
-    print("\n🏆 **Top Matches:**")
+    print("\n **Top Matches:**")
     for sentence, score in sorted_similarities[:n]:
-        print(f"✅ {score:.4f} - {sentence}")
+        print(f" {score:.4f} - {sentence}")
 
 
 # Query Example
@@ -89,7 +89,7 @@ get_top_n_similar(query_sentence, n=2)
 
 # 🔹 3D Visualization of Embeddings using PCA
 def visualize_embeddings_3d():
-    print("\n📊 **Visualizing Sentence Embeddings in 3D Space**")
+    print("\n **Visualizing Sentence Embeddings in 3D Space**")
 
     # Convert embeddings to NumPy array
     sentence_embeddings = np.array(list(sentence_vectors.values()))

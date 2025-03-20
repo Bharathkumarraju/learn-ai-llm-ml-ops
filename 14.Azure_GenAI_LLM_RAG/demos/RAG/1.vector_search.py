@@ -21,16 +21,16 @@ sentences = [
     "Is PizzaHut Restaurant Near Me.",
 ]
 
-print("\n🔹 List of Sentences to Search From:")
+print("\n List of Sentences to Search From:")
 for sentence in sentences:
     print(f"- {sentence}")
 
 
 # Function to get embeddings from OpenAI
 def get_embedding(text, model="text-embedding-3-small"):
-    print(f"\n🧠 Generating embedding for: \"{text}\"")
+    print(f"\n Generating embedding for: \"{text}\"")
     embedding = client.embeddings.create(input=[text], model=model).data[0].embedding
-    print(f"✅ Embedding generated (first 5 values): {embedding[:5]} ...\n")  # Print only first 5 values for readability
+    print(f" Embedding generated (first 5 values): {embedding[:5]} ...\n")  # Print only first 5 values for readability
     return embedding
 
 
@@ -48,7 +48,7 @@ def calculate_cosine_similarity(query_vector, vector):
 
 # Function to find top-N most similar sentences
 def get_top_n_similar(query_sentence, n=2):
-    print(f"\n🔍 Searching for sentences similar to: \"{query_sentence}\"")
+    print(f"\n Searching for sentences similar to: \"{query_sentence}\"")
 
     # Generate embedding for the query
     query_embedding = get_embedding(query_sentence)
@@ -62,16 +62,16 @@ def get_top_n_similar(query_sentence, n=2):
     # Sort sentences based on similarity score (higher is better)
     sorted_similarities = sorted(similarities.items(), key=lambda x: x[1], reverse=True)
 
-    print("\n📊 **Similarity Scores:**")
+    print("\n **Similarity Scores:**")
     for sentence, score in sorted_similarities:
         print(f"- {score:.4f} | {sentence}")
 
     # Get the top N results
     top_matches = sorted_similarities[:n]
 
-    print("\n🏆 **Top Matches:**")
+    print("\n **Top Matches:**")
     for sentence, score in top_matches:
-        print(f"✅ {score:.4f} - {sentence}")
+        print(f" {score:.4f} - {sentence}")
 
 
 # Query Example
