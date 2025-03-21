@@ -17,3 +17,15 @@ Euclidean distance
 Cosine Similarity
 dot product
 
+
+Create an AI agentic workflow that builds bunch of promptys that gets customer information and their order history .. and write emails.
+
+How to evaluate answers:
+1. Groundedness
+2. Fluency
+3. Coherence
+4. Relevance
+
+https://azure.github.io/Cloud-Native/30-days-of-ia-2024/kick-off
+
+
