@@ -1,3 +1,11 @@
+https://github.com/Azure-Samples/contoso-chat.git
+
+The above AI example has the full End2End process of creating RAG applicaiton with Prompty and AI Studio
+
+It includes GPT 3.5 Turbo LLM Application code, evaluations, deployment automation with AZD Cli.
+GithubActions for evaluation and deployment and intent mapping for multiple LLM task Mapping.
+
+
 (.venv) bharathkumardasaraju@azure-samples-contoso-chat$ az login --use-device-code
 To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code NJSKTJT62 to authenticate.
 
