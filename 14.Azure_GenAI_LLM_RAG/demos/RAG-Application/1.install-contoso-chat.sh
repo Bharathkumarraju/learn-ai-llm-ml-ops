@@ -11,3 +11,9 @@ Resolving deltas: 100% (1909/1909), done.
 bharathkumardasaraju@external$
 
 
+What are the mathematical methods used to compare the similarity between two vectors?
+
+Euclidean distance
+Cosine Similarity
+dot product
+
