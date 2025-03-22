@@ -1,0 +1,132 @@
+name: Terraform Remote state in s3
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/create-terraform-remote-state.yaml'
+      - 'cicd/terraform/tf-remote-state/**/*.tf'
+  workflow_dispatch:
+
+env:
+  AWS_REGION: "ap-south-1"
+
+jobs:
+  terraform:
+    name: Terraform Workflow
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Terraform CLI
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: latest
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Terraform Init
+        run: terraform init
+        working-directory: ./cicd/terraform/tf-remote-state
+
+      - name: Terraform Plan
+        if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
+        id: plan
+        run: |
+          terraform plan -no-color > plan_output.txt || true
+          cat plan_output.txt
+        working-directory: ./cicd/terraform/tf-remote-state
+
+      - name: Terraform Plan Summary
+        if: github.event_name == 'pull_request'
+        id: plan-summary
+        run: |
+          ADD=$(grep -oE '[0-9]+ to add' plan_output.txt | grep -oE '[0-9]+' || echo '0')
+          CHANGE=$(grep -oE '[0-9]+ to change' plan_output.txt | grep -oE '[0-9]+' || echo '0')
+          DESTROY=$(grep -oE '[0-9]+ to destroy' plan_output.txt | grep -oE '[0-9]+' || echo '0')
+
+          echo "Terraform Plan Summary:"
+          echo "Additions: $ADD, Changes: $CHANGE, Deletions: $DESTROY"
+
+          # Set environment variables for PR comment
+          echo "add=$ADD" >> $GITHUB_ENV
+          echo "change=$CHANGE" >> $GITHUB_ENV
+          echo "destroy=$DESTROY" >> $GITHUB_ENV
+
+          # Update GitHub step summary
+          echo "### Terraform Plan Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Additions:** $ADD" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes:** $CHANGE" >> $GITHUB_STEP_SUMMARY
+          echo "- **Deletions:** $DESTROY" >> $GITHUB_STEP_SUMMARY
+        working-directory: ./cicd/terraform/tf-remote-state
+
+      - name: Comment Plan on PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const botComment = comments.find(comment => comment.user.type === 'Bot' && comment.body.includes('Terraform Plan Summary'));
+
+            const planSummary = `
+            ### Terraform Plan Summary
+            - **Additions:** ${{ env.add }}
+            - **Changes:** ${{ env.change }}
+            - **Deletions:** ${{ env.destroy }}
+            `;
+
+            if (botComment) {
+              await github.rest.issues.deleteComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+              });
+            }
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: planSummary,
+            });
+
+      - name: Terraform Apply
+        if: github.event_name == 'workflow_dispatch'
+        id: apply
+        run: |
+          terraform apply -auto-approve -no-color > apply_output.txt
+          cat apply_output.txt
+        working-directory: ./cicd/terraform/tf-remote-state
+
+      - name: Terraform Apply Summary
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          ADD=$(grep -oE '[0-9]+ added' apply_output.txt | grep -oE '[0-9]+' || echo '0')
+          CHANGE=$(grep -oE '[0-9]+ changed' apply_output.txt | grep -oE '[0-9]+' || echo '0')
+          DESTROY=$(grep -oE '[0-9]+ destroyed' apply_output.txt | grep -oE '[0-9]+' || echo '0')
+
+          echo "Terraform Apply Summary:"
+          echo "Additions: $ADD, Changes: $CHANGE, Deletions: $DESTROY"
+
+          # Update GitHub step summary
+          echo "### Terraform Apply Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Additions:** $ADD" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes:** $CHANGE" >> $GITHUB_STEP_SUMMARY
+          echo "- **Deletions:** $DESTROY" >> $GITHUB_STEP_SUMMARY
+        working-directory: ./cicd/terraform/tf-remote-state
