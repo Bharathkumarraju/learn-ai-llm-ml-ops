@@ -1,0 +1,62 @@
+name: ai-llm-ml-notes-generator
+
+on:
+  push:
+    tags:
+      - aimlnotes-generator-*
+  workflow_dispatch:
+
+env:
+  AWS_REGION: "ap-southeast-1"
+
+jobs:
+  deploy-aiml-notes-generator:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Terraform CLI
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: latest
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Terraform Init
+        run: terraform init -input=false -var-file=bharath.tfvars
+        working-directory: ./cicd/terraform/app
+
+      - name: Terraform Plan
+        run: terraform plan -input=false -var-file=bharath.tfvars -no-color > plan_output.txt || true
+        working-directory: ./cicd/terraform/app
+
+      - name: Terraform Apply
+        run: terraform apply -input=false -var-file=bharath.tfvars -auto-approve -no-color > apply_output.txt
+        working-directory: ./cicd/terraform/app
+
+      - name: Run playbook to install python sphinx
+        run: ansible-playbook playbook.yml -vv --tags="docsgen"
+        working-directory: ./cicd/docs
+
+      - name: Compile docs to HTML
+        run: make html
+        working-directory: ./cicd/docs
+
+      - name: Zip up compiled HTML docs
+        run: tar -czf ../../../../docs/aillmanotesdocs.tar.gz .
+        working-directory: cicd/docs/aillmops/_build/html
+
+      - name: Upload HTML docs to S3
+        run: aws s3 sync . s3://bharathkumarraajusaillmnotebook --region ap-southeast-1
+        working-directory: cicd/docs/aillmops/_build/html
