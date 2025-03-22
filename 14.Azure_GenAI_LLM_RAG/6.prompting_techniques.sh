@@ -30,5 +30,12 @@ Presence and Frequency Penalties
 Logit bias
 
 
+https://www.promptingguide.ai/
+
+Anthropic prompting
+
+https://docs.anthropic.com/en/prompt-library/library
+
+
 
 
