@@ -8,7 +8,7 @@ GenAI , LLM(Large Language Models) and Machine-Learning(ML) Models Development a
 
 
 
-## How to view vector Embeddings in 3D
+## 🚀 How to view vector Embeddings in 3D
 
 - 🔗 [**Vector Embeddings Visualized**](https://medium.com/@bhrth.dsra1/tokenization-visualizing-vector-embeddings-in-multi-dimensional-space-3d-dc4667402b4e)
 
@@ -17,3 +17,10 @@ GenAI , LLM(Large Language Models) and Machine-Learning(ML) Models Development a
 
 - 🔗 [**Distance Metrics in Vector Search**](https://weaviate.io/blog/distance-metrics-in-vector-search)
 - 🔗 [**Vector Search Explained**](https://weaviate.io/blog/vector-search-explained)
+
+
+## 🚀 Prompt Engineering
+
+- 🔗 [**Promt Engineering**](https://www.promptingguide.ai/)
+
+
