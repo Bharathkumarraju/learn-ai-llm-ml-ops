@@ -292,14 +292,18 @@ This project demonstrates a complete Azure-based LLM RAG solution called **Conto
 
 
 
-
 Supporting Folders
 ==================
 
-- `src/api/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/>`__ – Main backend logic, FastAPI services, tracing, and evaluation flows.
-- `src/api/contoso_chat/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/contoso_chat/>`__ – Core chat handler and product logic.
-- `src/api/evaluators/custom_evals/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/>`__ – Evaluation modules like fluency, coherence, etc.
-- `docs/workshop/src/1-build/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/>`__ – Prompt templates used in evaluation and experimentation.
+- `src/api/`_ – Main backend logic, FastAPI services, tracing, and evaluation flows.
+- `contoso_chat/`_ – Core chat handler and product logic.
+- `custom_evals/`_ – Evaluation modules like fluency, coherence, etc.
+- `prompt_templates/`_ – Prompt templates used in evaluation and experimentation.
+
+.. _src/api/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/
+.. _contoso_chat/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/contoso_chat/
+.. _custom_evals/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/
+.. _prompt_templates/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/
 
 Prompty Files
 =============
@@ -310,27 +314,45 @@ The following `.prompty` files are included:
 
 **Evaluation Prompts:**
 
-- `coherence.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/coherence.prompty>`__
-- `fluency.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/fluency.prompty>`__
-- `groundedness.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/groundedness.prompty>`__
-- `relevance.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/relevance.prompty>`__
+- `coherence.prompty`_
+- `fluency.prompty`_
+- `groundedness.prompty`_
+- `relevance.prompty`_
+
+.. _coherence.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/coherence.prompty
+.. _fluency.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/fluency.prompty
+.. _groundedness.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/groundedness.prompty
+.. _relevance.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/relevance.prompty
 
 **Chat & Response Templates:**
 
-- `chat.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/contoso_chat/chat.prompty>`__
-- `product.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/contoso_chat/product/product.prompty>`__
+- `chat.prompty`_
+- `product.prompty`_
+
+.. _chat.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/contoso_chat/chat.prompty
+.. _product.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/contoso_chat/product/product.prompty
 
 **Workshop Demo Prompts:**
 
-- `chat-0.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-0.prompty>`__
-- `chat-1.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-1.prompty>`__
-- `chat-2.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-2.prompty>`__
-- `chat-2-jailbreak.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-2-jailbreak.prompty>`__
-- `chat-3.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-3.prompty>`__
-- `chat-4.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-4.prompty>`__
-- `chat-exact.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-exact.prompty>`__
-- `basic.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/basic.prompty>`__
-- `friendliness.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/friendliness.prompty>`__
+- `chat-0.prompty`_
+- `chat-1.prompty`_
+- `chat-2.prompty`_
+- `chat-2-jailbreak.prompty`_
+- `chat-3.prompty`_
+- `chat-4.prompty`_
+- `chat-exact.prompty`_
+- `basic.prompty`_
+- `friendliness.prompty`_
+
+.. _chat-0.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-0.prompty
+.. _chat-1.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-1.prompty
+.. _chat-2.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-2.prompty
+.. _chat-2-jailbreak.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-2-jailbreak.prompty
+.. _chat-3.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-3.prompty
+.. _chat-4.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-4.prompty
+.. _chat-exact.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-exact.prompty
+.. _basic.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/basic.prompty
+.. _friendliness.prompty: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/friendliness.prompty
 
 
 What is `.prompty`?

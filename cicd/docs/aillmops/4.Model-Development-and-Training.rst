@@ -173,11 +173,14 @@ Model Development and Training
 MLflow Runs Directory
 =====================
 
-- `mlruns/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/4.Model-Development-and-Training/2.demo-experimenting-storing-result-in-mlflow/mlruns/>`__ – MLflow runs directory in MLflow Example
-
+- `mlruns/`_ – MLflow runs directory in MLflow Example
 
 Supporting Folders
 ==================
 
-- `mlruns/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/4.Model-Development-and-Training/mlruns/>`__ – MLflow runs directory
-- `mlartifacts/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/4.Model-Development-and-Training/mlartifacts/>`__ – MLflow model artifacts directory
+- `mlruns/ (root)`_ – MLflow runs directory
+- `mlartifacts/`_ – MLflow model artifacts directory
+
+.. _mlruns/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/4.Model-Development-and-Training/2.demo-experimenting-storing-result-in-mlflow/mlruns/
+.. _mlruns/ (root): https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/4.Model-Development-and-Training/mlruns/
+.. _mlartifacts/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/4.Model-Development-and-Training/mlartifacts/

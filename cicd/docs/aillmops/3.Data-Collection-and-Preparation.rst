@@ -380,11 +380,14 @@ Airflow Execution Scripts2
   :caption: Script for Reading Logs
   :linenos:
 
+
 Supporting Folders
 ==================
 
-- `plugins/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/3.Data-Collection-and-Preparation/Data-Pipeline-Orchestration-Airflow/plugins/>`__ – Airflow plugin folder
+- `plugins/`_ – Airflow plugin folder
+- `config/`_ – Airflow config folder
+- `logs/`_ – DAG run logs path
 
-- `config/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/3.Data-Collection-and-Preparation/Data-Pipeline-Orchestration-Airflow/config/>`__ – Airflow config folder
-
-- `logs/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/3.Data-Collection-and-Preparation/Data-Pipeline-Orchestration-Airflow/logs/>`__ – DAG run logs path
+.. _plugins/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/3.Data-Collection-and-Preparation/Data-Pipeline-Orchestration-Airflow/plugins/
+.. _config/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/3.Data-Collection-and-Preparation/Data-Pipeline-Orchestration-Airflow/config/
+.. _logs/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/3.Data-Collection-and-Preparation/Data-Pipeline-Orchestration-Airflow/logs/
