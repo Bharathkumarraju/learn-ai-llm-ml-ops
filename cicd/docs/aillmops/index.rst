@@ -1,5 +1,5 @@
 ================================
-AI/LLM/MLOps Learning Notes
+AI/LLM/MLOps Notes
 ================================
 
 Welcome to the AI-LLM-ML notes

@@ -170,13 +170,10 @@ Automating with MLflow and BentoML
 Supporting Folders
 ==================
 
-- `mlruns/`_ – MLflow run artifacts
-- `mlartifacts/`_ – Model artifacts
-- `templates/`_ – HTML templates
+- `mlruns/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/mlruns/>`_ – MLflow run artifacts
+- `mlartifacts/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/mlartifacts/>`_ – Model artifacts
+- `templates/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/templates/>`_ – HTML templates
 
-.. _mlruns/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/mlruns/
-.. _mlartifacts/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/mlartifacts/
-.. _templates/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/templates/
 
 
 ==========================================
@@ -330,17 +327,9 @@ Supporting Folders
 Supporting Folders
 ==================
 
-- `3.demo/`_ – Final project outputs and UI
-- `3.demo/labs/`_ – Project lab environment
-- `3.demo/labs/assets/05-project/`_ – Full working ML app project source
-- `3.demo/labs/mlruns/`_ – MLflow run artifacts
-- `3.demo/labs/mlartifacts/`_ – Model pickle/artifact storage
-- `3.demo/labs/bentoml/`_ – BentoML service-related files and configs
-
-.. _3.demo/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/3.demo/
-.. _3.demo/labs/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/3.demo/labs/
-.. _3.demo/labs/assets/05-project/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/3.demo/labs/assets/05-project/
-.. _3.demo/labs/mlruns/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/3.demo/labs/mlruns/
-.. _3.demo/labs/mlartifacts/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/3.demo/labs/mlartifacts/
-.. _3.demo/labs/bentoml/: https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/3.demo/labs/bentoml/
-
+- `3.demo/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/3.demo/>`_ – Final project outputs and UI
+- `3.demo/labs/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/3.demo/labs/>`_ – Project lab environment
+- `3.demo/labs/assets/05-project/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/3.demo/labs/assets/05-project/>`_ – Full working ML app project source
+- `3.demo/labs/mlruns/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/3.demo/labs/mlruns/>`_ – MLflow run artifacts
+- `3.demo/labs/mlartifacts/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/3.demo/labs/mlartifacts/>`_ – Model pickle/artifact storage
+- `3.demo/labs/bentoml/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/6.Automating-with-MLflow-and-BentoML/3.demo/labs/bentoml/>`_ – BentoML service-related files and configs
