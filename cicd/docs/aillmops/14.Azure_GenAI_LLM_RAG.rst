@@ -1,3 +1,347 @@
-=========================
-Azure GenAI Examples
-=========================
+==========================================
+Azure GenAI + LLM + RAG
+==========================================
+
+**Azure Examples**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/1.Azure_examples.sh
+  :language: bash
+  :caption: Azure Examples
+  :linenos:
+
+**GenAI**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/2.GenAI.sh
+  :language: bash
+  :caption: GenAI Concepts
+  :linenos:
+
+**Retrieval Augmented Generation**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/3.Retrieval_Augmented_Generation.sh
+  :language: bash
+  :caption: Retrieval Augmented Generation
+  :linenos:
+
+**RAG Vector Search**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/4.RAG_vector_search.sh
+  :language: bash
+  :caption: RAG Vector Search
+  :linenos:
+
+**Agentic RAG Systems**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/5.Agentic_RAG_systems.sh
+  :language: bash
+  :caption: Agentic RAG Systems
+  :linenos:
+
+**Graph RAG**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/6.Graph_RAG.sh
+  :language: bash
+  :caption: Graph RAG
+  :linenos:
+
+**Prompting Techniques**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/6.prompting_techniques.sh
+  :language: bash
+  :caption: Prompting Techniques
+  :linenos:
+
+**LLMs Performance**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/7.LLMs_performance.sh
+  :language: bash
+  :caption: LLMs Performance
+  :linenos:
+
+**Transformer Architecture**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/imgs/1.transformer_architecture.png
+  :width: 100%
+  :align: center
+
+**Standalone LLM vs RAG**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/imgs/2.StandaloneLLM-RAGLLM.png
+  :width: 100%
+  :align: center
+
+**RAG Vector Search Diagram**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/imgs/3.RAG_vector_search.png
+  :width: 100%
+  :align: center
+
+**Vector Search Example**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/imgs/4.vector_search_example.png
+  :width: 100%
+  :align: center
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/imgs/5.vector_search_example.png
+  :width: 100%
+  :align: center
+
+**Generative LLM Diagram**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/imgs/6.Generative_LLM.png
+  :width: 100%
+  :align: center
+
+**Advanced RAG**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/imgs/7.advanced_RAG.png
+  :width: 100%
+  :align: center
+
+**3D Embedding Visualization**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/imgs/8.visualize_embeddings_3D.png
+  :width: 100%
+  :align: center
+
+**Dynamic Embeddings in RAG**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/imgs/9.RAG_dynamic_embeddings.png
+  :width: 100%
+  :align: center
+
+**Math in Transformers**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/imgs/math_in_transformer.png
+  :width: 100%
+  :align: center
+
+**Inference Parameter Visualizations**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/inference-param-temperature.png
+  :width: 100%
+  :align: center
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/inference-param-top-k.png
+  :width: 100%
+  :align: center
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/inference-param-top-P.png
+  :width: 100%
+  :align: center
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/inference-param-presence-and-frequency-penalties.png
+  :width: 100%
+  :align: center
+
+**AI Studio in Action**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/AI_Studio_in_action.png
+  :width: 100%
+  :align: center
+
+**Deploying Fine-tuned Models**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/deploy_base_finetuned_model.png
+  :width: 100%
+  :align: center
+
+**LLM Leaderboard**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/llm-leader-board.png
+  :width: 100%
+  :align: center
+
+**Demo: Contoso Chat Setup**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/demos/1.azure_ai_contoso_chat.sh
+  :language: bash
+  :caption: Setup Azure AI Contoso Chat
+  :linenos:
+
+**Contoso Chat Workshop PDF**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/demos/Contoso_Chat_Workshop_Azure.pdf
+  :language: none
+  :caption: Contoso Chat Workshop Slides
+
+**Vector Search and RAG - Shell Demos**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/demos/RAG/1.vector_search.sh
+  :language: bash
+  :caption: Vector Search
+  :linenos:
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/demos/RAG/2.vector_search_full_embeddings.sh
+  :language: bash
+  :caption: Full Embedding Vector Search
+  :linenos:
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/demos/RAG/3.visualize_vector_search.sh
+  :language: bash
+  :caption: Visualize Vector Search
+  :linenos:
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/demos/RAG/4.tokens_vector_embeddings.sh
+  :language: bash
+  :caption: Tokens to Embeddings
+  :linenos:
+
+**Vector Embeddings in 3D**
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/demos/RAG/vector_embeddings_in_3D.png
+  :width: 100%
+  :align: center
+
+**Python Demos for Vector Search**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/demos/RAG/1.vector_search.py
+  :language: python
+  :caption: Vector Search Python Script
+  :linenos:
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/demos/RAG/2.vector_search_full_embeddings.py
+  :language: python
+  :caption: Full Embedding Search Python
+  :linenos:
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/demos/RAG/3.visualize_vector_search.py
+  :language: python
+  :caption: Visualize Vector Search in Python
+  :linenos:
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/demos/RAG/4.tokens_vector_embeddings.py
+  :language: python
+  :caption: Token Embedding Generation
+  :linenos:
+
+**RAG Application Setup**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/demos/RAG-Application/1.install-contoso-chat.sh
+  :language: bash
+  :caption: Install Contoso Chat
+  :linenos:
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/demos/RAG-Application/img.png
+  :width: 100%
+  :align: center
+
+.. image:: ../../../14.Azure_GenAI_LLM_RAG/demos/RAG-Application/azure_llm_ops.png
+  :width: 100%
+  :align: center
+
+
+
+====================================================
+Azure Samples – Contoso Chat (LLM RAG Application)
+====================================================
+
+This project demonstrates a complete Azure-based LLM RAG solution called **Contoso Chat**, integrating AI, vector search, and enterprise data with Azure infrastructure.
+
+**Repository Highlights**
+
+- 🧠 AI chat flow evaluation (`evaluate-chat-flow.ipynb`)
+- 📊 CosmosDB, Azure Search & Azure Storage provisioning (via Bicep)
+- 💬 Prompt templates and grounding data (`src/api/contoso_chat/`)
+- 📦 Modular Azure infra (`infra/`) for AI, database, host, monitoring, etc.
+- 📁 Sample data and customer/product metadata (`data/`)
+
+**🛠 Setup Script**
+
+.. literalinclude:: ../../../14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/7.install-Azure-contoso-chat.sh
+  :language: bash
+  :caption: Install Azure Contoso Chat
+  :linenos:
+
+**📘 Key Resources**
+
+- `README.md <https://github.com/Azure-Samples/azure-search-openai-demo>`_ – Overview and architecture
+- `evaluate-chat-flow.ipynb` – End-to-end evaluation notebook
+- `infra/` – Azure deployment templates (Bicep)
+- `src/api/` – API backend including prompt logic, evaluations, tracing
+- `data/` – CosmosDB, Azure Search and grounding examples
+
+**📎 Additional Docs and Policies**
+
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- LICENSE
+- SECURITY.md
+- SUPPORT.md
+
+**📂 Folder Contents**
+
+.. code-block:: bash
+
+  ├── data/
+  │   ├── customer_info/*.json
+  │   ├── product_info/products.csv
+  │   └── manual_info/contoso-manuals-index.ipynb
+  ├── infra/
+  │   ├── app/
+  │   ├── core/
+  │   └── hooks/
+  ├── src/
+  │   └── api/
+  │       ├── contoso_chat/
+  │       └── evaluators/
+  ├── docker-compose.yml
+  ├── azure.yaml
+  └── img.png
+
+
+
+
+
+Supporting Folders
+==================
+
+- `src/api/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/>`__ – Main backend logic, FastAPI services, tracing, and evaluation flows.
+- `src/api/contoso_chat/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/contoso_chat/>`__ – Core chat handler and product logic.
+- `src/api/evaluators/custom_evals/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/>`__ – Evaluation modules like fluency, coherence, etc.
+- `docs/workshop/src/1-build/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/>`__ – Prompt templates used in evaluation and experimentation.
+
+Prompty Files
+=============
+
+`.prompty` files define reusable **prompt templates** to evaluate large language models (LLMs) consistently. These prompts encapsulate evaluation metrics such as fluency, coherence, and grounding.
+
+The following `.prompty` files are included:
+
+**Evaluation Prompts:**
+
+- `coherence.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/coherence.prompty>`__
+- `fluency.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/fluency.prompty>`__
+- `groundedness.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/groundedness.prompty>`__
+- `relevance.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/evaluators/custom_evals/relevance.prompty>`__
+
+**Chat & Response Templates:**
+
+- `chat.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/contoso_chat/chat.prompty>`__
+- `product.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/src/api/contoso_chat/product/product.prompty>`__
+
+**Workshop Demo Prompts:**
+
+- `chat-0.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-0.prompty>`__
+- `chat-1.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-1.prompty>`__
+- `chat-2.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-2.prompty>`__
+- `chat-2-jailbreak.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-2-jailbreak.prompty>`__
+- `chat-3.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-3.prompty>`__
+- `chat-4.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-4.prompty>`__
+- `chat-exact.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/chat-exact.prompty>`__
+- `basic.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/basic.prompty>`__
+- `friendliness.prompty <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/blob/main/14.Azure_GenAI_LLM_RAG/azure-samples-contoso-chat/docs/workshop/src/1-build/friendliness.prompty>`__
+
+
+What is `.prompty`?
+====================
+
+**`.prompty`** is a custom file format used to define **structured LLM prompts**. Each file encapsulates:
+
+- **Prompt instructions**
+- **Placeholders or variables**
+- **Scoring/evaluation metadata**
+
+
+
+

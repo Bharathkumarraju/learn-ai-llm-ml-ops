@@ -10,8 +10,8 @@ All the code can be found at `bharath-ai`_.
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 1
+    :caption: The AI/LLM Notes:
 
     1.ml-ops-tools
     2.ml-ops-overview

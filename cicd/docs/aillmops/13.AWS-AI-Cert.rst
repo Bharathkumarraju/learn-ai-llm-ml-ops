@@ -1,3 +1,17 @@
-=========================
-AWS AI Certification
-=========================
+==========================================
+AWS AI Certification - Demo
+==========================================
+
+**Demo Script**
+
+.. literalinclude:: ../../../13.AWS-AI-Cert/1.demo.sh
+  :language: bash
+  :caption: Initial Demo Script for AWS AI Certification
+  :linenos:
+
+
+**AWS Usecase Examples**
+
+.. note::
+
+   This folder is a placeholder. Use-case driven examples with AWS will be added soon.

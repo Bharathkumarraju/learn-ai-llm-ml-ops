@@ -1,3 +1,11 @@
-=========================
+=================
 OpenAI Examples
-=========================
+=================
+
+
+**OpenAI Usecase Examples**
+
+.. note::
+
+   This folder is a placeholder. Use-case driven examples with OpenAI will be added soon.
+

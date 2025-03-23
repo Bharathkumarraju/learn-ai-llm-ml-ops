@@ -1,3 +1,17 @@
 ===================
 ML-Ops Tools
 ===================
+
+
+mlops_tools
+
+.. literalinclude:: ../../../1.ml-ops-tools/1.mlops-tools.sh
+  :language: bash
+  :caption: mlops_tools
+
+* **ml-ops-tools** -
+
+.. image:: ../../../1.ml-ops-tools//tools-for-mlops.png
+    :width: 100%
+    :align: center
+

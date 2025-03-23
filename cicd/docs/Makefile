@@ -2,7 +2,7 @@
 #
 # Put it first so that "make" without argument is like "make help".
 help:
-	@python -msphinx -M help "aillmopsnotes" "aillmops/_build"
+	@python3.11 -msphinx -M help "aillmops" "aillmops/_build"
 
 .PHONY: help Makefile
 
@@ -10,4 +10,4 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@echo "\n--- Building AILLM Notes ---"
-	@python -msphinx -M $@ "aillmopsnotes" "aillmops/_build"
+	@python3.11 -msphinx -M $@ "aillmops" "aillmops/_build"

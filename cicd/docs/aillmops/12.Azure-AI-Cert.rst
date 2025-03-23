@@ -1,3 +1,315 @@
-=========================
-Azure AI Certification
-=========================
+==========================================
+Azure AI Fundamentals
+==========================================
+
+**Azure AI Services Overview**
+
+.. image:: ../../../12.Azure-AI-Cert/Azure_AI_services.png
+    :width: 100%
+    :align: center
+
+**AI Workloads**
+
+.. image:: ../../../12.Azure-AI-Cert/AI_Workloads.png
+    :width: 100%
+    :align: center
+
+**Initial Demo Script**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/1.demo.sh
+  :language: bash
+  :caption: Demo script initializing Azure AI study
+  :linenos:
+
+
+**Azure AI Fundamentals**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/Azure_AI_Fundamentals.png
+  :language: bash
+  :caption: Demo script initializing Azure AI study
+  :linenos:
+
+
+
+==========================================
+Azure AI – Machine Learning
+==========================================
+
+.. image:: ../../../12.Azure-AI-Cert/1.Machine-Learning/imgs/1.what-is-ML.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../12.Azure-AI-Cert/1.Machine-Learning/imgs/2.Types_of_ML.png
+    :width: 100%
+    :align: center
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/1.Machine-Learning/1.ml.sh
+  :language: bash
+  :caption: Introduction to Machine Learning
+  :linenos:
+
+.. image:: ../../../12.Azure-AI-Cert/1.Machine-Learning/imgs/3.Model-training.png
+    :width: 100%
+    :align: center
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/1.Machine-Learning/2.Model_Training_Evaluation.sh
+  :language: bash
+  :caption: Model Training and Evaluation
+  :linenos:
+
+.. image:: ../../../12.Azure-AI-Cert/1.Machine-Learning/imgs/4.Deep-neural-network-model.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../12.Azure-AI-Cert/1.Machine-Learning/imgs/5.Deep-neural-network-model.png
+    :width: 100%
+    :align: center
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/1.Machine-Learning/3.DeepLearning.sh
+  :language: bash
+  :caption: Deep Learning Concepts
+  :linenos:
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/1.Machine-Learning/4.Azure_ML.sh
+  :language: bash
+  :caption: Azure Machine Learning CLI Commands
+  :linenos:
+
+
+==========================================
+Azure AI
+==========================================
+
+**Azure AI Overview**
+
+.. image:: ../../../12.Azure-AI-Cert/2.Azure-AI/imgs/1.azure_ai.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../12.Azure-AI-Cert/2.Azure-AI/imgs/2.azure_ai_services.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../12.Azure-AI-Cert/2.Azure-AI/imgs/3.azure-ai-services.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../12.Azure-AI-Cert/2.Azure-AI/imgs/4.azure_endpoint_accessed_via_restapi.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../12.Azure-AI-Cert/2.Azure-AI/imgs/5.bharath-ai-test.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../12.Azure-AI-Cert/2.Azure-AI/imgs/6.azure_ai_endpoints.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../12.Azure-AI-Cert/2.Azure-AI/imgs/7.azure_ai_endpoints.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../12.Azure-AI-Cert/2.Azure-AI/imgs/8.azure-vision_POST_call.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../12.Azure-AI-Cert/2.Azure-AI/imgs/test.jpg
+    :width: 100%
+    :align: center
+
+**Azure AI Setup Script**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/2.Azure-AI/1.Azure-AI.sh
+  :language: bash
+  :caption: Basic Azure AI Setup Script
+  :linenos:
+
+**Azure Vision API Script**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/2.Azure-AI/2.Azure_vision_API.sh
+  :language: bash
+  :caption: Azure Vision API Call Script
+  :linenos:
+
+
+==========================================
+Azure AI Vision
+==========================================
+
+**Azure AI Vision - Foundry Portal**
+
+.. image:: ../../../12.Azure-AI-Cert/3.Azure-AI_Vision/imgs/azure_ai_foundry_portal.png
+    :width: 100%
+    :align: center
+
+**Convolutional Neural Networks (CNN)**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/3.Azure-AI_Vision/1.CNN.sh
+  :language: bash
+  :caption: Introduction to CNN in Azure AI
+  :linenos:
+
+**Multi-Modal Models**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/3.Azure-AI_Vision/2.Multi-Modal_Models.sh
+  :language: bash
+  :caption: Azure AI Multi-Modal Models Example
+  :linenos:
+
+**Azure AI Vision Services**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/3.Azure-AI_Vision/3.Azure_AI_vision_services.sh
+  :language: bash
+  :caption: Azure AI Vision Services Setup Script
+  :linenos:
+
+
+==========================================
+Azure Natural Language Processing (NLP)
+==========================================
+
+**What is NLP in Azure?**
+
+.. image:: ../../../12.Azure-AI-Cert/4.Azure_NLP/imags/1.NLP.png
+    :width: 100%
+    :align: center
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/4.Azure_NLP/1.Azure_Natural_Language_Processing.sh
+  :language: bash
+  :caption: Intro to Azure NLP
+  :linenos:
+
+**Azure NLP Services Overview**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/4.Azure_NLP/2.NLP_in_Azure.sh
+  :language: bash
+  :caption: Using NLP in Azure AI
+  :linenos:
+
+**Text Analysis in Azure**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/4.Azure_NLP/3.Text_analysis.sh
+  :language: bash
+  :caption: Azure Text Analysis Capabilities
+  :linenos:
+
+**Azure Speech-to-Text Capabilities**
+
+.. image:: ../../../12.Azure-AI-Cert/4.Azure_NLP/imags/2.Azure_AI_speech.png
+    :width: 100%
+    :align: center
+
+**Azure Bot Services**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/4.Azure_NLP/4.Azure_Bot_Service.sh
+  :language: bash
+  :caption: Azure Bot Service Integration
+  :linenos:
+
+**Conversational Language Support in Azure**
+
+.. image:: ../../../12.Azure-AI-Cert/4.Azure_NLP/imags/3.conversational_language.png
+    :width: 100%
+    :align: center
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/4.Azure_NLP/5.Conversational_language.sh
+  :language: bash
+  :caption: Conversational Language in Azure AI
+  :linenos:
+
+**Speech Recognition with Azure**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/4.Azure_NLP/6.speech_recognition.sh
+  :language: bash
+  :caption: Speech Recognition Example
+  :linenos:
+
+==========================================
+Azure Document Intelligence
+==========================================
+
+**Introduction to Azure Document Intelligence**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/5.Azure_Document_intelligence/1.Azure_AI_document_intelligence.sh
+  :language: bash
+  :caption: Using Azure AI for Document Intelligence
+  :linenos:
+
+
+==========================================
+Azure AI Search
+==========================================
+
+**Azure AI Enrichment Workflow**
+
+.. image:: ../../../12.Azure-AI-Cert/6.Azure_AI_Search/imgs/1.AI_enrichment.png
+    :width: 100%
+    :align: center
+
+**Azure AI Search Script**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/6.Azure_AI_Search/1.Azure_Ai_search.sh
+  :language: bash
+  :caption: Azure AI Search Usage
+  :linenos:
+
+
+==========================================
+GenAI in Azure AI
+==========================================
+
+**Transformer Models in GenAI**
+
+.. image:: ../../../12.Azure-AI-Cert/7.GenAI_in_AZURE_AI/imgs/1.LLM_usesTransformer_model.png
+    :width: 100%
+    :align: center
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/7.GenAI_in_AZURE_AI/1.GenAI.sh
+  :language: bash
+  :caption: Introduction to GenAI in Azure
+  :linenos:
+
+**Language Training with Azure AI**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/7.GenAI_in_AZURE_AI/2.Language_training.sh
+  :language: bash
+  :caption: Language Model Training
+  :linenos:
+
+**Microsoft Copilot**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/7.GenAI_in_AZURE_AI/3.Copilot.sh
+  :language: bash
+  :caption: Microsoft Copilot Overview
+  :linenos:
+
+
+==========================================
+Azure OpenAI
+==========================================
+
+**Azure OpenAI Platform**
+
+.. image:: ../../../12.Azure-AI-Cert/8.Azure_OpenAI/imgs/1.azure_openAI.png
+    :width: 100%
+    :align: center
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/8.Azure_OpenAI/1.Azure_OpenAI.sh
+  :language: bash
+  :caption: Overview of Azure OpenAI Services
+  :linenos:
+
+
+==========================================
+Azure AI Topics - Demo
+==========================================
+
+**Demo Script**
+
+.. literalinclude:: ../../../12.Azure-AI-Cert/9.Azure_AI_Topics/1.demo.sh
+  :language: bash
+  :caption: Azure AI Topics Demonstration
+  :linenos:
+
+

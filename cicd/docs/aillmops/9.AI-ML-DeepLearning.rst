@@ -1,3 +1,92 @@
-=======================
-AI ML Deep Learning
-=======================
+==========================================
+AI, ML, and Deep Learning
+==========================================
+
+**AI, ML, and DL Overview**
+
+.. image:: ../../../9.AI-ML-DeepLearning/ai-ml-dl.png
+    :width: 100%
+    :align: center
+
+**Understanding AI, ML, DL**
+
+.. image:: ../../../9.AI-ML-DeepLearning/understand-ai-ml-dl.png
+    :width: 100%
+    :align: center
+
+**Initial Demo Script**
+
+.. literalinclude:: ../../../9.AI-ML-DeepLearning/1.demo.sh
+  :language: bash
+  :caption: Demo Script - Introduction
+  :linenos:
+
+**Inferencing Concepts**
+
+.. image:: ../../../9.AI-ML-DeepLearning/inferencing.png
+    :width: 100%
+    :align: center
+
+**Types of Inferencing**
+
+.. literalinclude:: ../../../9.AI-ML-DeepLearning/2.types_of_inferencing.sh
+  :language: bash
+  :caption: Inferencing Types
+  :linenos:
+
+**Text Data and NLP Models**
+
+.. image:: ../../../9.AI-ML-DeepLearning/textdata-nlpmodels.png
+    :width: 100%
+    :align: center
+
+**Data Types in AI Models**
+
+.. literalinclude:: ../../../9.AI-ML-DeepLearning/3.Data_types_in_AI_models.sh
+  :language: bash
+  :caption: Data Types in AI
+  :linenos:
+
+**AWS ML Data Collection Tools**
+
+.. image:: ../../../9.AI-ML-DeepLearning/AWS_ML_Tools_Data_Collection_tools.png
+    :width: 100%
+    :align: center
+
+**AWS Tools for Machine Learning**
+
+.. image:: ../../../9.AI-ML-DeepLearning/Aws_tools_for-ML.png
+    :width: 100%
+    :align: center
+
+**IaC and MLOps Integration**
+
+.. image:: ../../../9.AI-ML-DeepLearning/IaC-Mlops.png
+    :width: 100%
+    :align: center
+
+**ML Pipeline Script**
+
+.. literalinclude:: ../../../9.AI-ML-DeepLearning/4.ML-Pipeline.sh
+  :language: bash
+  :caption: ML Pipeline Automation
+  :linenos:
+
+**Amazon Polly Demo**
+
+.. image:: ../../../9.AI-ML-DeepLearning/amazon_polly_v1.png
+    :width: 100%
+    :align: center
+
+**AWS Glue for Data Processing**
+
+.. image:: ../../../9.AI-ML-DeepLearning/AWS-Glue.png
+    :width: 100%
+    :align: center
+
+**AWS AI/ML Services Script**
+
+.. literalinclude:: ../../../9.AI-ML-DeepLearning/5.AWS_services_ai_ml.sh
+  :language: bash
+  :caption: AWS Services for AI/ML
+  :linenos:

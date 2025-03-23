@@ -1,3 +1,35 @@
-==============
-AWS ML Tools
-==============
+==========================================
+AWS SageMaker
+==========================================
+
+**ML Model Lifecycle**
+
+.. image:: ../../../8.AWS-Sage-Maker/ml-model-lifecycle.png
+    :width: 100%
+    :align: center
+
+**Demo Script**
+
+.. literalinclude:: ../../../8.AWS-Sage-Maker/1.demo.sh
+  :language: bash
+  :caption: Initial Demo Script for SageMaker
+  :linenos:
+
+**AWS SageMaker Overview**
+
+.. image:: ../../../8.AWS-Sage-Maker/aws-sage-maker.png
+    :width: 100%
+    :align: center
+
+**SageMaker Core Components**
+
+.. literalinclude:: ../../../8.AWS-Sage-Maker/2.AWS-SageMaker-CoreComponents.sh
+  :language: bash
+  :caption: AWS SageMaker - Core Components
+  :linenos:
+
+**SageMaker Use Case - IoT**
+
+.. image:: ../../../8.AWS-Sage-Maker/sagemaker-usecase-iot.png
+    :width: 100%
+    :align: center
