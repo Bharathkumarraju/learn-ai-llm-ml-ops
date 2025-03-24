@@ -1,0 +1,19 @@
+*Naive prompt*
+
+Create a travel itinerary
+
+*Better Prompt Example*
+
+Instructions: Generate a detailed 3-day travel itinerary for a trip to Paris, France. The itinerary should include visits to historical landmarks, art museums, and popular local restaurants. Ensure that there is a balance between guided tours and free time for exploration. Each day should have suggestions for breakfast, lunch, and dinner, with brief descriptions of each activity and restaurant.
+Context: The traveler has never been to Paris before and wants to experience both the well-known and hidden gems of the city. They are particularly interested in the history of Paris, its art scene, and authentic French cuisine. They are comfortable using public transport and enjoy walking tours.
+Input data: 3-day trip to Paris
+Output Indicator: Travel itinerary with specific times, locations, descriptions, and dining recommendations.
+
+
+*With Negative Prompting*
+
+Instructions: Generate a detailed 3-day travel itinerary for a trip to Paris, France. The itinerary should include visits to historical landmarks, art museums, and popular local restaurants. Ensure that there is a balance between guided tours and free time for exploration. Each day should have suggestions for breakfast, lunch, and dinner, with brief descriptions of each activity and restaurant.
+Context: The traveler has never been to Paris before and wants to experience both the well-known and hidden gems of the city. They are particularly interested in the history of Paris, its art scene, and authentic French cuisine. They are comfortable using public transport and enjoy walking tours.
+Input data: 3-day trip to Paris
+Output Indicator: Travel itinerary with specific times, locations, descriptions, and dining recommendations.
+Negative Prompting: Do not include activities that are primarily for children or families, avoid overly touristy restaurants, and exclude any activities that require extensive travel outside of Paris city center (except for Versailles).
