@@ -51,6 +51,24 @@ RAG allows a Foundation Model to reference a data source outside of its training
 
 So we have a knowledge base and its being built and managed by Amazon Bedrock.
 
+Amazon Bedrock - RAG Data Sources ---
+-------------------------------------------------------->
+AMazon S3
+Confluence
+Microsoft Sharepoint
+Salesforce
+Webpage
+
+https://platform.openai.com/tokenizer
+
+
+each model has their own tokens maximum tokens called context window... its kind of race to context windows :)
+The larget the context window, the more information and coherence
+
+
+
+
+
 
 
 
