@@ -98,6 +98,14 @@ Top-P
 Top-K
 
 
+prompt engineering techniques:
+1. Zero-shot prompting
+2. Few-shots prompting
+3. Chain of thought prompting
+
+4. Retrieval Augmented Generation: Combine the models capability with external data sources to generate more informed and contextually rich response.
+
+
 
 
 
