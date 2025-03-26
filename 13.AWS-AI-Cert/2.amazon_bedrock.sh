@@ -65,6 +65,39 @@ https://platform.openai.com/tokenizer
 each model has their own tokens maximum tokens called context window... its kind of race to context windows :)
 The larget the context window, the more information and coherence
 
+Vector Embeddings
+
+Amazon Bedrock with GuardRails
+
+Amazon Bedrock - Agents
+
+
+Amazon Bedrock -cloudwatch integration
+
+Amazon Bedrock  - AI AIStylist.
+
+
+
+prompting:
+
+Instructions:
+Exploration:
+Context:
+Input Data:
+Output Indicator:
+
+
+Negative Prompting
+
+
+Prompt Performance Optimization:
+
+System Prompts
+Temperature
+Top-P
+Top-K
+
+
 
 
 
