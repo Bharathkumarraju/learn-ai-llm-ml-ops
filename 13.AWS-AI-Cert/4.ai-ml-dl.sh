@@ -34,7 +34,7 @@ Acuuracy of classification models:
 4. Accuracy
 
 
-AUC-ROC --- Area Under Curve - Reciever Operator Curve
+AUC-ROC --- Area Under the Curve - Reciever Operator Curve
 
 
 Regression metrics
