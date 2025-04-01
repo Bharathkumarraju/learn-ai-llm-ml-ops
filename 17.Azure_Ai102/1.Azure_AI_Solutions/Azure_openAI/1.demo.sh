@@ -1,0 +1,2 @@
+Create Azure OpenAI workspace
+
