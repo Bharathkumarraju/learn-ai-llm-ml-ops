@@ -35,6 +35,14 @@ It is a Decision Driven -
 Examples: GameAI, Learning Tasks, Robot Navigation
 
 
+Neural Networks -- Deep Learning -- Feed Forward -- Backpropagation -- Loss Function -- Activation Functions -- Dense -- Sparse
+
+GPU  - General Processing Unit - Optimized for Many Parallel tasks
+
+CUDA - Compute Unified Device Architecture
+Compute Unified Device Architecture(CUDA) is a parallel computing platform and API by NVIDIA that allows developers to use CUDA-enabled GPUs for general purpose computing on GPUs(GPGPU)
+
+
 
 
 
