@@ -48,8 +48,19 @@ The NVIDIA Deep Learning SDK is a collection of NVIDIA libraries for deep learni
 one of the library is cuDNN - CUDA Deep Neural Network Library(cuDNN):
 
 
+Jupyter Notebooks - Jupyter Lab
+
+Responsible-AI
+1. Fairness -- Fairlearn python library
+2. Reliability and Safety
+3. Privacy and Security -- personally identifiable information(PII ), Anomoly detection
+4. Inclusiveness
+5. Transparency
+6. Accountability
 
 
+
+RAI - Responsile AI
 
 
 
