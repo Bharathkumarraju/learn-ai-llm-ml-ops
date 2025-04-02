@@ -42,6 +42,12 @@ GPU  - General Processing Unit - Optimized for Many Parallel tasks
 CUDA - Compute Unified Device Architecture
 Compute Unified Device Architecture(CUDA) is a parallel computing platform and API by NVIDIA that allows developers to use CUDA-enabled GPUs for general purpose computing on GPUs(GPGPU)
 
+All major deep learning frameworks are integrated with NVIDIA Deep Learning SDK.
+
+The NVIDIA Deep Learning SDK is a collection of NVIDIA libraries for deep learning.
+one of the library is cuDNN - CUDA Deep Neural Network Library(cuDNN):
+
+
 
 
 
