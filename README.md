@@ -11,6 +11,10 @@ Website  https://aillm.devops4itengineers.com/ created for my learning Notes!
 ![Bharaths Azure-AI900](12.Azure-AI-Cert/Azure_AI_Fundamentals.png)
 
 
+## AWS AI Certification - AWS Certified AI Practitioner
+
+![Bharaths AWS-AI-Practitioner](13.AWS-AI-Cert/aws_ai.png)
+
 
 ## 🚀 How to view vector Embeddings in 3D
 
