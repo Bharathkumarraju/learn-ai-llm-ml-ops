@@ -28,5 +28,8 @@ All the code can be found at `bharath-ai`_.
     13.AWS-AI-Cert
     14.Azure_GenAI_LLM_RAG
     15.OpenAI_Usecase_Examples
+    16.build-ai-apps
+    17.azureAi102
+
 
 

@@ -1,17 +1,90 @@
-==========================================
 AWS AI Certification - Demo
 ==========================================
 
-**Demo Script**
+**Overview**
+
+.. image:: ../../../13.AWS-AI-Cert/aws_ai.png
+    :width: 100%
+    :align: center
+
+**AWS AI Demos**
+
 
 .. literalinclude:: ../../../13.AWS-AI-Cert/1.demo.sh
   :language: bash
   :caption: Initial Demo Script for AWS AI Certification
   :linenos:
 
+.. literalinclude:: ../../../13.AWS-AI-Cert/2.amazon_bedrock.sh
+  :language: bash
+  :caption: Amazon Bedrock Integration Script
+  :linenos:
 
-**AWS Usecase Examples**
+.. literalinclude:: ../../../13.AWS-AI-Cert/3.amazon_Q.sh
+  :language: bash
+  :caption: Amazon Q (LLM Assistant) Script
+  :linenos:
 
-.. note::
+.. literalinclude:: ../../../13.AWS-AI-Cert/4.ai-ml-dl.sh
+  :language: bash
+  :caption: AI, ML, DL Concepts Script
+  :linenos:
 
-   This folder is a placeholder. Use-case driven examples with AWS will be added soon.
+.. literalinclude:: ../../../13.AWS-AI-Cert/5.ml.sh
+  :language: bash
+  :caption: Machine Learning AWS Example Script
+  :linenos:
+
+.. literalinclude:: ../../../13.AWS-AI-Cert/6.aws_ai_services.sh
+  :language: bash
+  :caption: AWS AI Services Commands
+  :linenos:
+
+**AI Concepts Visualized**
+
+.. image:: ../../../13.AWS-AI-Cert/imgs/1.amazon_bedrock.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../13.AWS-AI-Cert/imgs/2.bedrock_AI_Models.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../13.AWS-AI-Cert/imgs/3.automatic_model_evaluation.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../13.AWS-AI-Cert/imgs/4.RAG_KnowledgeBase.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../13.AWS-AI-Cert/imgs/5.aws_vector_dbs.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../13.AWS-AI-Cert/imgs/6.tokenization_and_embeddings.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../13.AWS-AI-Cert/imgs/7.prompt_performance.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../13.AWS-AI-Cert/imgs/8.ml-terms.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../13.AWS-AI-Cert/imgs/9.confusion_matrix.png
+    :width: 100%
+    :align: center
+
+.. image:: ../../../13.AWS-AI-Cert/imgs/10.aws-ai-services.png
+    :width: 100%
+    :align: center
+
+
+**📘 Additional AWS AI Demos**
+
+- `prompting/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/13.AWS-AI-Cert/demos/aws_ai/prompting/>`_ – Prompt engineering text examples
+- `bedrock/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/13.AWS-AI-Cert/demos/aws_ai/bedrock/>`_ – PDF Demo with Bedrock
+- `ec2-fundamentals/ <https://github.com/Bharathkumarraju/learn-ai-llm-ml-ops/tree/main/13.AWS-AI-Cert/demos/aws_ai/ec2-fundamentals/>`_ – EC2 user-data shell examples

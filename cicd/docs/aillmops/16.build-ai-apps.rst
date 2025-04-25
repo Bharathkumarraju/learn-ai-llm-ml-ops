@@ -1,0 +1,23 @@
+=========================
+Build AI Apps on Azure
+=========================
+
+**AI Apps Overview**
+
+.. image:: ../../../16.Build-AI-apps/imgs/1.ai_azure.png
+    :width: 100%
+    :align: center
+
+**Demo Script**
+
+.. literalinclude:: ../../../16.Build-AI-apps/1.demo.sh
+  :language: bash
+  :caption: Initial Script to Build AI Applications on Azure
+  :linenos:
+
+
+**AI App Development Notes**
+
+.. note::
+
+   This folder contains examples and scripts for building AI-powered applications using Azure. More detailed walkthroughs and integrations will be added as development progresses.
